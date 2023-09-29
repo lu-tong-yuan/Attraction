@@ -48,7 +48,6 @@ class MainViewModel@Inject constructor(
         return attractions
     }
 
-    // 添加新项到数据集中
     fun addNewAttractions(atts: List<Attraction>) {
         attractions.addAll(atts)
     }
