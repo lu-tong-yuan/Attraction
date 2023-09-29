@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="TaipeiTour"
+        app:title="台北遊"
         app:titleTextColor="#FFFFFF" />
 
     <androidx.recyclerview.widget.RecyclerView

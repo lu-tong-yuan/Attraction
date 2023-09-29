@@ -39,15 +39,15 @@ class LanguageAdapter(private val viewModel: MainViewModel) : RecyclerView.Adapt
 
     private fun functionClicked(position: Int) {
         when(position) {
-            0 -> viewModel.fetchAttractions("zh-tw")
-            1 -> viewModel.fetchAttractions("zh-cn")
-            2 -> viewModel.fetchAttractions("en")
-            3 -> viewModel.fetchAttractions("ja")
-            4 -> viewModel.fetchAttractions("ko")
-            5 -> viewModel.fetchAttractions("es")
-            6 -> viewModel.fetchAttractions("id")
-            7 -> viewModel.fetchAttractions("th")
-            8 -> viewModel.fetchAttractions("vi")
+            0 -> viewModel.fetchAttractions("zh-tw", page = 1)
+            1 -> viewModel.fetchAttractions("zh-cn", page = 1)
+            2 -> viewModel.fetchAttractions("en", page = 1)
+            3 -> viewModel.fetchAttractions("ja", page = 1)
+            4 -> viewModel.fetchAttractions("ko", page = 1)
+            5 -> viewModel.fetchAttractions("es", page = 1)
+            6 -> viewModel.fetchAttractions("id", page = 1)
+            7 -> viewModel.fetchAttractions("th", page = 1)
+            8 -> viewModel.fetchAttractions("vi", page = 1)
             else -> return
         }
     }
